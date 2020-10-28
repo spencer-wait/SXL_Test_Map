@@ -713,7 +713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: 64d0a8af6f49caf40ba9a93ecc9f9714, type: 2}
   m_StaticLightingSkyUniqueID: 1
-  m_SkySettings: {fileID: 1585517839}
+  m_SkySettings: {fileID: 2094457843}
   m_SkySettingsFromProfile: {fileID: 7488742677745068149, guid: 64d0a8af6f49caf40ba9a93ecc9f9714,
     type: 2}
 --- !u!4 &1184539977
@@ -968,107 +968,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1585517839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  rotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  skyIntensityMode:
-    m_OverrideState: 0
-    m_Value: 0
-  exposure:
-    m_OverrideState: 0
-    m_Value: 10
-  multiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxValue:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxColor:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
-  desiredLuxValue:
-    m_OverrideState: 0
-    m_Value: 20000
-  updateMode:
-    m_OverrideState: 0
-    m_Value: 0
-  updatePeriod:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
-  hdriSky:
-    m_OverrideState: 0
-    m_Value: {fileID: 8900000, guid: 8253d41e6e8b11a4cbe77a4f8f82934d, type: 3}
-  enableBackplate:
-    m_OverrideState: 0
-    m_Value: 0
-  backplateType:
-    m_OverrideState: 0
-    m_Value: 0
-  groundLevel:
-    m_OverrideState: 0
-    m_Value: 0
-  scale:
-    m_OverrideState: 0
-    m_Value: {x: 32, y: 32}
-  projectionDistance:
-    m_OverrideState: 0
-    m_Value: 16
-    min: 0.0000001
-  plateRotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  plateTexRotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  plateTexOffset:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0}
-  blendAmount:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 100
-  shadowTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    hdr: 0
-    showAlpha: 1
-    showEyeDropper: 1
-  pointLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
-  dirLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
-  rectLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
 --- !u!1 &1752495077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1231,107 @@ Transform:
   m_Father: {fileID: 854080168}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2094457843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  skyIntensityMode:
+    m_OverrideState: 0
+    m_Value: 0
+  exposure:
+    m_OverrideState: 0
+    m_Value: 10
+  multiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxColor:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 0
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
+  hdriSky:
+    m_OverrideState: 0
+    m_Value: {fileID: 8900000, guid: 8253d41e6e8b11a4cbe77a4f8f82934d, type: 3}
+  enableBackplate:
+    m_OverrideState: 0
+    m_Value: 0
+  backplateType:
+    m_OverrideState: 0
+    m_Value: 0
+  groundLevel:
+    m_OverrideState: 0
+    m_Value: 0
+  scale:
+    m_OverrideState: 0
+    m_Value: {x: 32, y: 32}
+  projectionDistance:
+    m_OverrideState: 0
+    m_Value: 16
+    min: 0.0000001
+  plateRotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  plateTexRotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  plateTexOffset:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  blendAmount:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 100
+  shadowTint:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  pointLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
+  dirLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
+  rectLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!1 &2129682664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,6 +1401,7 @@ GameObject:
   - component: {fileID: 2301011934907019331}
   - component: {fileID: 7969300467482711161}
   - component: {fileID: 4192959101416249207}
+  - component: {fileID: 97711590487883925}
   m_Layer: 0
   m_Name: Wall.002
   m_TagString: Untagged
@@ -1408,6 +1409,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &97711590487883925
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97711590487883924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.9999998, z: 2.9999995}
+  m_Center: {x: 0, y: 0, z: 1.5149214}
 --- !u!4 &139465579552209206
 Transform:
   m_ObjectHideFlags: 0
@@ -1505,6 +1519,7 @@ GameObject:
   - component: {fileID: 3577447018475948329}
   - component: {fileID: 2554967762515500677}
   - component: {fileID: 2461705827181650739}
+  - component: {fileID: 267540736506345359}
   m_Layer: 0
   m_Name: Hoop
   m_TagString: Untagged
@@ -1512,6 +1527,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &267540736506345359
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267540736506345358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -909370206558210195, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &306087513034886748
 Transform:
   m_ObjectHideFlags: 0
@@ -1678,6 +1707,7 @@ GameObject:
   - component: {fileID: 3745622627208503922}
   - component: {fileID: 5334037118588081388}
   - component: {fileID: 4539702728991737907}
+  - component: {fileID: 832149485607971993}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1685,6 +1715,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &832149485607971993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485607971992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3403566, y: 1.3999997, z: 1.3730177}
+  m_Center: {x: 0.17017813, y: 0.29999995, z: -0.3134911}
 --- !u!23 &882129739205050809
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1736,6 +1779,7 @@ GameObject:
   - component: {fileID: 8916748170604024127}
   - component: {fileID: 3419743624854866062}
   - component: {fileID: 205811611517656714}
+  - component: {fileID: 887336844943841076}
   m_Layer: 0
   m_Name: PlatformSupportBeamLeft
   m_TagString: Untagged
@@ -1743,6 +1787,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &887336844943841076
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887336844943841075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7920054637082220250, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!33 &892957586029991611
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1832,6 +1890,7 @@ GameObject:
   - component: {fileID: 8162460946370953636}
   - component: {fileID: 7606227805317207158}
   - component: {fileID: 8659653730176340801}
+  - component: {fileID: 1166642298097019371}
   m_Layer: 0
   m_Name: CementBarrier
   m_TagString: Untagged
@@ -1839,6 +1898,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1166642298097019371
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166642298097019370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8993282482362968010, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!23 &1305037034741316646
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2028,6 +2101,7 @@ GameObject:
   - component: {fileID: 306087513034886748}
   - component: {fileID: 574535478978288230}
   - component: {fileID: 2154206367480872343}
+  - component: {fileID: 1839359592299472782}
   m_Layer: 0
   m_Name: LargeQuarterPipe
   m_TagString: Untagged
@@ -2035,6 +2109,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1839359592299472782
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839359592299472781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7066214141935300952, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!23 &1853465080552001257
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2143,6 +2231,7 @@ GameObject:
   - component: {fileID: 4931218027397069512}
   - component: {fileID: 4876933052820193483}
   - component: {fileID: 1305037034741316646}
+  - component: {fileID: 2193423311917319047}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -2150,6 +2239,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &2193423311917319047
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2193423311917319046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!1 &2246367917739756024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,6 +2264,7 @@ GameObject:
   - component: {fileID: 1493137567417515759}
   - component: {fileID: 5549148307523290364}
   - component: {fileID: 1080045670500621681}
+  - component: {fileID: 2246367917739756025}
   m_Layer: 0
   m_Name: PlatformQuarterPipe.001
   m_TagString: Untagged
@@ -2168,6 +2272,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &2246367917739756025
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2246367917739756024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4620445763766468925, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &2301011934907019331
 Transform:
   m_ObjectHideFlags: 0
@@ -2533,6 +2651,7 @@ GameObject:
   - component: {fileID: 5115831738983080576}
   - component: {fileID: 7837041055382807110}
   - component: {fileID: 6007976486699624485}
+  - component: {fileID: 3215444906984504055}
   m_Layer: 0
   m_Name: CurvedKinkedRailLeft
   m_TagString: Untagged
@@ -2540,6 +2659,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3215444906984504055
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215444906984504054}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7332212991277435551, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &3271815175298727223
 Transform:
   m_ObjectHideFlags: 0
@@ -2626,6 +2759,7 @@ GameObject:
   - component: {fileID: 4693832669145443466}
   - component: {fileID: 7687277084221067326}
   - component: {fileID: 6798240691550342567}
+  - component: {fileID: 3522193503635903439}
   m_Layer: 0
   m_Name: CornerRaisedLevel
   m_TagString: Untagged
@@ -2633,6 +2767,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3522193503635903439
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522193503635903438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1929007218563158792, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!1 &3568256793244443688
 GameObject:
   m_ObjectHideFlags: 0
@@ -2644,6 +2792,7 @@ GameObject:
   - component: {fileID: 4951240776392482102}
   - component: {fileID: 53972595501092076}
   - component: {fileID: 6695114918905799029}
+  - component: {fileID: 3568256793244443689}
   m_Layer: 0
   m_Name: CurvedKinkedRailRight
   m_TagString: Untagged
@@ -2651,6 +2800,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3568256793244443689
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3568256793244443688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7704602655500162100, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &3577447018475948329
 Transform:
   m_ObjectHideFlags: 0
@@ -2676,6 +2839,7 @@ GameObject:
   - component: {fileID: 6754333035292343014}
   - component: {fileID: 8031801653690632648}
   - component: {fileID: 5331685845620463883}
+  - component: {fileID: 3599804946594007150}
   m_Layer: 0
   m_Name: MassiveRamp
   m_TagString: Untagged
@@ -2683,6 +2847,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3599804946594007150
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3599804946594007149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1228821914882942356, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &3612539099117555815
 Transform:
   m_ObjectHideFlags: 0
@@ -2708,6 +2886,7 @@ GameObject:
   - component: {fileID: 6645823805911123149}
   - component: {fileID: 5366159435080640185}
   - component: {fileID: 7202271455718696995}
+  - component: {fileID: 3655000509492154621}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2715,6 +2894,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3655000509492154621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3655000509492154620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &3655822995466831146
 Transform:
   m_ObjectHideFlags: 0
@@ -2782,6 +2975,7 @@ GameObject:
   - component: {fileID: 7245135531305819519}
   - component: {fileID: 1756362670897222771}
   - component: {fileID: 2489878634639534700}
+  - component: {fileID: 3858487343769160180}
   m_Layer: 0
   m_Name: MannyPadSlantRail
   m_TagString: Untagged
@@ -2789,6 +2983,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3858487343769160180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3858487343769160179}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2847525569556635139, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &4156878812832365297
 Transform:
   m_ObjectHideFlags: 0
@@ -3041,6 +3249,7 @@ GameObject:
   - component: {fileID: 8270899064778290215}
   - component: {fileID: 4730172973517793897}
   - component: {fileID: 7797638795281208332}
+  - component: {fileID: 4913512841230818105}
   m_Layer: 0
   m_Name: BasketBallRamp
   m_TagString: Untagged
@@ -3048,6 +3257,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &4913512841230818105
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4913512841230818104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6089350622043217058, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!33 &4919429967961179753
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3171,6 +3394,7 @@ GameObject:
   - component: {fileID: 1729776006821245858}
   - component: {fileID: 6697621764510043822}
   - component: {fileID: 882129739205050809}
+  - component: {fileID: 5148817237320859116}
   m_Layer: 0
   m_Name: Plane.001
   m_TagString: Untagged
@@ -3178,6 +3402,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &5148817237320859116
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5148817237320859115}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2997923, y: 2.0000002, z: 0.2566841}
+  m_Center: {x: 0.0000000021592197, y: 4.7151716e-10, z: 0.08591939}
 --- !u!4 &5205151617196353771
 Transform:
   m_ObjectHideFlags: 0
@@ -3259,6 +3496,7 @@ GameObject:
   - component: {fileID: 3655822995466831146}
   - component: {fileID: 6961137701718011067}
   - component: {fileID: 1853465080552001257}
+  - component: {fileID: 5335601852521060640}
   m_Layer: 0
   m_Name: Wall.001
   m_TagString: Untagged
@@ -3266,6 +3504,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &5335601852521060640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335601852521060639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.9999996, z: 2.9999995}
+  m_Center: {x: 0, y: 0, z: 1.5149214}
 --- !u!33 &5366159435080640185
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3332,6 +3583,7 @@ GameObject:
   - component: {fileID: 1038515426195361805}
   - component: {fileID: 6897717224083951135}
   - component: {fileID: 368274577371477678}
+  - component: {fileID: 5582830800019094924}
   m_Layer: 0
   m_Name: Loop
   m_TagString: Untagged
@@ -3339,6 +3591,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &5582830800019094924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5582830800019094923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4703892609595657539, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!1 &5620069448837146667
 GameObject:
   m_ObjectHideFlags: 0
@@ -3350,6 +3616,7 @@ GameObject:
   - component: {fileID: 6091797541826558519}
   - component: {fileID: 6857146982536306876}
   - component: {fileID: 7501809581198665735}
+  - component: {fileID: 5620069448837146668}
   m_Layer: 0
   m_Name: PlatformQuarterPipe.000
   m_TagString: Untagged
@@ -3357,6 +3624,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &5620069448837146668
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5620069448837146667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6987349010068141500, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!33 &5721586356722305313
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3410,6 +3691,7 @@ GameObject:
   - component: {fileID: 3464876690512060215}
   - component: {fileID: 4655221726638708343}
   - component: {fileID: 3120795240341474437}
+  - component: {fileID: 5987733728257609817}
   m_Layer: 0
   m_Name: Wall.003
   m_TagString: Untagged
@@ -3417,6 +3699,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &5987733728257609817
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987733728257609816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.9999998, z: 2.9999995}
+  m_Center: {x: 0, y: 0, z: 1.5149214}
 --- !u!23 &6007976486699624485
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3631,6 +3926,7 @@ GameObject:
   - component: {fileID: 7116621632004077216}
   - component: {fileID: 7132118656539443202}
   - component: {fileID: 1403294111732988029}
+  - component: {fileID: 6540855811237568179}
   m_Layer: 0
   m_Name: UnderPlatformRamp
   m_TagString: Untagged
@@ -3638,6 +3934,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6540855811237568179
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6540855811237568178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6827793976455170778, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &6645823805911123149
 Transform:
   m_ObjectHideFlags: 0
@@ -3772,6 +4082,7 @@ GameObject:
   - component: {fileID: 1825593482625602366}
   - component: {fileID: 791410494076720643}
   - component: {fileID: 1539754677332143528}
+  - component: {fileID: 6765689174857684762}
   m_Layer: 0
   m_Name: Kicker
   m_TagString: Untagged
@@ -3779,6 +4090,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6765689174857684762
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6765689174857684761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5546945197200905478, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!23 &6798240691550342567
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3864,6 +4189,7 @@ GameObject:
   - component: {fileID: 2470450440712335777}
   - component: {fileID: 892957586029991611}
   - component: {fileID: 4677622163996549211}
+  - component: {fileID: 6958534765621261154}
   m_Layer: 0
   m_Name: CornerSmallQuarterPipe
   m_TagString: Untagged
@@ -3871,6 +4197,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6958534765621261154
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6958534765621261153}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 503156490663616342, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!33 &6961137701718011067
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4004,6 +4344,7 @@ GameObject:
   - component: {fileID: 3844179465337427443}
   - component: {fileID: 5783024645139873612}
   - component: {fileID: 6348728279554709119}
+  - component: {fileID: 7360393988335938871}
   m_Layer: 0
   m_Name: MannyPadBox
   m_TagString: Untagged
@@ -4011,6 +4352,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &7360393988335938871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7360393988335938870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7516305, y: 2.7516305, z: 2.273699}
+  m_Center: {x: 0.000000003369387, y: 0.0000000047292623, z: 1.1940001}
 --- !u!1 &7415401758081524869
 GameObject:
   m_ObjectHideFlags: 0
@@ -4022,6 +4376,7 @@ GameObject:
   - component: {fileID: 3774608952424132702}
   - component: {fileID: 5037973430562948440}
   - component: {fileID: 7562988004667025927}
+  - component: {fileID: 7415401758081524870}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -4029,6 +4384,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &7415401758081524870
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415401758081524869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.9999996, z: 2.9999995}
+  m_Center: {x: 0, y: 0, z: 1.5149214}
 --- !u!1 &7424310007011805013
 GameObject:
   m_ObjectHideFlags: 0
@@ -4040,6 +4408,7 @@ GameObject:
   - component: {fileID: 4712331060798076835}
   - component: {fileID: 704679312419644078}
   - component: {fileID: 4966934128302221075}
+  - component: {fileID: 7424310007011805014}
   m_Layer: 0
   m_Name: LongSideLedge
   m_TagString: Untagged
@@ -4047,6 +4416,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7424310007011805014
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7424310007011805013}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5017026666000225736, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!23 &7501809581198665735
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4424,6 +4807,7 @@ GameObject:
   - component: {fileID: 139465579552209206}
   - component: {fileID: 5892964684351268309}
   - component: {fileID: 8363205508938546947}
+  - component: {fileID: 8803136403632096626}
   m_Layer: 0
   m_Name: SpiralRail
   m_TagString: Untagged
@@ -4431,6 +4815,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8803136403632096626
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8803136403632096625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5850589662886070455, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!1 &8903019738008174634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4442,6 +4840,7 @@ GameObject:
   - component: {fileID: 2524177800108212865}
   - component: {fileID: 5269630511065591258}
   - component: {fileID: 6727818085855519841}
+  - component: {fileID: 8903019738008174635}
   m_Layer: 0
   m_Name: PlatformSupportBeamRight
   m_TagString: Untagged
@@ -4449,6 +4848,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8903019738008174635
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903019738008174634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9185354742583317681, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
 --- !u!4 &8916748170604024127
 Transform:
   m_ObjectHideFlags: 0
@@ -4474,6 +4887,7 @@ GameObject:
   - component: {fileID: 6217267904869171742}
   - component: {fileID: 4865972601536804065}
   - component: {fileID: 4276513271883324244}
+  - component: {fileID: 9115204366797022148}
   m_Layer: 0
   m_Name: SideCenterRamp
   m_TagString: Untagged
@@ -4481,3 +4895,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &9115204366797022148
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9115204366797022147}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4057602723045399446, guid: 286174b7d5ab4bd43aae23ca99a44869, type: 3}
